@@ -9,6 +9,12 @@ import Computing from './Computing'
 import Geography from './Geography';
 import ClassCiv from './ClassCiv';
 import MFL from './MFL';
+import Drama from './Drama';
+import Dance from './Dance';
+import FilmStudies from './FilmStudies';
+import Music from './Music';
+import PE from './PE';
+import SportsStudies from './SportsStudies';
 
 const subjectMapping = {
   art: Art,
@@ -22,6 +28,12 @@ const subjectMapping = {
   'geography': Geography,
   'classical-civilisation': ClassCiv,
   'mfl': MFL,
+  'drama': Drama,
+  'dance': Dance,
+  'film-studies': FilmStudies,
+  'music': Music,
+  'pe': PE,
+  'sports-studies': SportsStudies,
   
 };
 

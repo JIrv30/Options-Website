@@ -71,14 +71,14 @@ const Header = () => {
                 Questions and FAQs
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 to="/subjects"
                 className="block text-gray-700 hover:text-blue-500 transition duration-300"
               >
                 Subjects
               </Link>
-            </li>
+            </li> */}
           </ul>
         </nav>
       </div>
@@ -146,7 +146,7 @@ const Header = () => {
               Questions and FAQs
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               to="/subjects"
               className="block text-gray-700 hover:text-blue-500 transition duration-300"
@@ -154,7 +154,7 @@ const Header = () => {
             >
               Subjects
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
 
