@@ -5,7 +5,9 @@ import Home from './pages/Home'; // Example page components
 import Choices from './pages/Choices';
 import Curriculum from './pages/Curriculum';
 import FAQs from './pages/FAQs';
-import Subjects from './pages/Subjects';
+import SubjectPage from './pages/SubjectPage';
+import NotFound from './pages/NotFound';
+
 
 const App = () => {
   return (
@@ -14,9 +16,11 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/choices" element={<Choices />} />
-        <Route path="/Curriculum" element={<Curriculum />} />
+        <Route path="/curriculum" element={<Curriculum />} />
         <Route path="/faqs" element={<FAQs />} />
-        <Route path="/subjects" element={<Subjects />} />
+        <Route path="/subjects/:subjectName" element={<SubjectPage />} />
+        <Route path="*" element={<NotFound />} /> {/* Catch-all route */}
+
       </Routes>
     </Router>
   );

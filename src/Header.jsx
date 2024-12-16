@@ -8,9 +8,11 @@ const Header = () => {
   return (
     <header className="bg-white shadow-md sticky top-0 z-10">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-        {/* Logo */}
+        {/* Logo (Wrapped in a Link to navigate to home) */}
         <div className="flex items-center">
-          <img src={KABPlogo} alt="King's Academy Brune Park Logo" className="h-12 w-auto" />
+          <Link to="/">
+            <img src={KABPlogo} alt="King's Academy Brune Park Logo" className="h-12 w-auto" />
+          </Link>
         </div>
 
         {/* Hamburger Button for Mobile */}
@@ -63,7 +65,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                to="/questions"
+                to="/faqs"
                 className="block text-gray-700 hover:text-blue-500 transition duration-300"
               >
                 Questions and FAQs
@@ -137,7 +139,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to="/questions"
+              to="/faqs"
               className="block text-gray-700 hover:text-blue-500 transition duration-300"
               onClick={() => setIsMenuOpen(false)}
             >
