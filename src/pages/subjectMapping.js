@@ -4,6 +4,11 @@ import Math from './Math';
 import DesignAndTech from './DesignAndTech';
 import FoodAndNutrition from './FoodAndNutri'
 import Textiles from './Textiles'
+import EnterpriseAndMarketing from './EnterpriseAndMarketing'
+import Computing from './Computing'
+import Geography from './Geography';
+import ClassCiv from './ClassCiv';
+import MFL from './MFL';
 
 const subjectMapping = {
   art: Art,
@@ -11,7 +16,12 @@ const subjectMapping = {
   math: Math,
   'design-and-technology': DesignAndTech,
   'food-preparation-and-nutrition': FoodAndNutrition,
-  textiles: Textiles
+  textiles: Textiles,
+  'enterprise-and-marketing': EnterpriseAndMarketing,
+  computing: Computing,
+  'geography': Geography,
+  'classical-civilisation': ClassCiv,
+  'mfl': MFL,
   
 };
 

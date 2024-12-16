@@ -23,4 +23,3 @@ const NotFound = () => {
 };
 
 export default NotFound;
-a

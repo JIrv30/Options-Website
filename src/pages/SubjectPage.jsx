@@ -1,15 +1,15 @@
-import React, { Suspense, lazy } from 'react';
-import { Link } from 'react-router-dom';
-import { useParams, Navigate } from 'react-router-dom';
-import subjectMapping from './subjectMapping'; // Import your subject-to-component mapping
+import React, { Suspense } from 'react';
+import { Link, useParams } from 'react-router-dom';
+import subjectMapping from './subjectMapping'; // Import the updated subjectMapping
 
 const SubjectPage = () => {
   const { subjectName } = useParams();
 
-  // Get the subject component from the mapping
-  const SubjectComponent = subjectMapping[subjectName.toLowerCase()];
+  // Normalize the subject name from the URL to match the keys in `subjectMapping`
+  const normalizedSubjectName = subjectName.toLowerCase().replace(/\s+/g, '-');
+  const SubjectComponent = subjectMapping[normalizedSubjectName];
 
-  // If no valid subject is found, redirect to a default page (or show an error)
+  // Handle invalid subject names
   if (!SubjectComponent) {
     return (
       <div className="bg-gray-50 min-h-screen py-10 flex items-center justify-center">
@@ -31,11 +31,12 @@ const SubjectPage = () => {
     );
   }
 
+  // Render the valid subject page
   return (
     <div className="bg-gray-50 min-h-screen py-10">
       <div className="max-w-4xl mx-auto px-4">
         <h1 className="text-3xl font-extrabold text-blue-600 mb-4">
-          {subjectName.toUpperCase()}
+          {normalizedSubjectName.replace(/-/g, ' ').toUpperCase()}
         </h1>
 
         <div className="mb-6">
@@ -47,7 +48,7 @@ const SubjectPage = () => {
           </Link>
         </div>
 
-        {/* Use Suspense to lazily load the subject component */}
+        {/* Use Suspense to handle lazy-loading */}
         <Suspense fallback={<div>Loading...</div>}>
           <SubjectComponent />
         </Suspense>
