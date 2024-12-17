@@ -9,7 +9,6 @@ const Curriculum = () => {
       subjects: [
         { name: 'Geography', url: 'geography' },
         { name: 'History', url: 'history' },
-        { name: 'Classical Civilisation', url: 'Classical-Civilisation' },
         { name: 'MFL', url: 'mfl' },
         { name: 'Computing', url: 'computing' },
         { name: 'RE', url: 're'}
@@ -24,7 +23,7 @@ const Curriculum = () => {
     },
     {name: 'Humanaties',
       subjects: [
-        {name: 'Health and Social Care', url: 'health-and-social-care'}
+        {name: 'Health and Social Care', url: 'health-and-social-care'},    { name: 'Classical Civilisation', url: 'Classical-Civilisation' }
       ]
     },
     {
