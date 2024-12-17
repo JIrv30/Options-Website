@@ -24,11 +24,17 @@ const Faqs = () => {
           <p className="text-gray-700 mt-4">
             Still have a question? Click the button below to contact our team. Please include an email address so we can respond.
           </p>
-          <div className="mt-4">
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-lg shadow-md hover:bg-blue-700 transition duration-200">
-              Ask a Question
-            </button>
-          </div>
+          <div className="bg-white shadow-md rounded-lg p-6">
+    {/* Redirect button */}
+    <a
+      href="https://docs.google.com/forms/d/e/1FAIpQLSeecg85ofoZXxeITjcIPUs2ntRCsFQk30bZKs1eQTLHoYj6zA/viewform?usp=sf_link"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300"
+    >
+      Ask a Question
+    </a>
+  </div>
         </header>
 
         {/* FAQs */}
@@ -65,9 +71,14 @@ const Faqs = () => {
           <p className="text-gray-700">
             If you have more questions about the options process, click the button below to submit your query to our Options Team or Year Team. They will get back to you as soon as possible.
           </p>
-          <button className="bg-blue-600 text-white px-6 py-2 rounded-lg shadow-md hover:bg-blue-700 transition duration-200 mt-4">
-            Submit a Question
-          </button>
+          <a
+      href="https://docs.google.com/forms/d/e/1FAIpQLSeecg85ofoZXxeITjcIPUs2ntRCsFQk30bZKs1eQTLHoYj6zA/viewform?usp=sf_link"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300"
+    >
+      Ask a Question
+    </a>
         </footer>
       </div>
     </div>

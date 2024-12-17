@@ -15,6 +15,8 @@ import FilmStudies from './FilmStudies';
 import Music from './Music';
 import PE from './PE';
 import SportsStudies from './SportsStudies';
+import RE from './RE'
+import HealthAndSocialCare from './HealthAndSocialCare';
 
 const subjectMapping = {
   art: Art,
@@ -34,6 +36,8 @@ const subjectMapping = {
   'music': Music,
   'pe': PE,
   'sports-studies': SportsStudies,
+  're': RE,
+  'health-and-social-care': HealthAndSocialCare,
   
 };
 

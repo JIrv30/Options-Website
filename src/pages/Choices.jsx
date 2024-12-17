@@ -1,4 +1,5 @@
 import React from 'react';
+import unifrog from '../assets/unifrog.png'
 
 const Choices = () => {
   return (
@@ -44,27 +45,61 @@ const Choices = () => {
 
         {/* Careers Information */}
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Careers Information</h2>
-          <div className="bg-white shadow-md rounded-lg p-6">
-            <img
-              src="https://via.placeholder.com/600x200" 
-              alt="Career Guidance"
-              className="w-full h-auto rounded-lg mb-4"
-            />
-            <p className="text-gray-700 leading-relaxed">
-              Unifrog is an excellent website that we subscribe to, full of helpful advice and guidance about careers. To access Unifrog, pupils should log in with their school email address and follow the Reset Password/Resend Welcome Email link. Once logged in, a good starting place is to scroll down to the Personality and Interests Profiles and take the quizzes. The Careers Library has information on many different job roles and the skills required, whilst the Subjects Library has two useful sections when thinking about options: *In a Nutshell* lists relevant GCSEs and courses for a particular subject area, whilst *Geek Out* has resources to explore the subject further. Pupils can favorite different careers and subjects which will be saved to their profile for future reference.
-            </p>
-          </div>
-        </section>
+  <h2 className="text-2xl font-semibold text-gray-800 mb-4">Careers Information</h2>
+  <div className="bg-white shadow-md rounded-lg p-6">
+    <a href="https://www.unifrog.org/sign-in" target="_blank" rel="noopener noreferrer">
+      <img
+        src={unifrog} 
+        alt="Career Guidance"
+        className="w-full h-auto rounded-lg mb-4 transition-transform duration-300 ease-in-out transform hover:scale-105 hover:opacity-90 cursor-pointer"
+      />
+    </a>
+    <p className="text-gray-700 leading-relaxed">
+      Unifrog is an excellent website that we subscribe to, full of helpful advice and guidance about careers. To access Unifrog, pupils should <a href="https://www.unifrog.org/sign-in" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 font-semibold transition-colors duration-300">log in with their school email address</a> and follow the Reset Password/Resend Welcome Email link. Once logged in, a good starting place is to scroll down to the Personality and Interests Profiles and take the quizzes. The Careers Library has information on many different job roles and the skills required, whilst the Subjects Library has two useful sections when thinking about options: <strong>*In a Nutshell*</strong> lists relevant GCSEs and courses for a particular subject area, whilst <strong>*Geek Out*</strong> has resources to explore the subject further. Pupils can favorite different careers and subjects which will be saved to their profile for future reference.
+    </p>
+  </div>
+</section>
+
+
+
 
         {/* Guided Choices Form */}
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Guided Choices Form</h2>
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+            Guided Choices Form
+          </h2>
+          <p className="text-red-600 font-bold mb-4">
+            TO ACCESS THIS FORM, YOU MUST BE SIGNED INTO YOUR SCHOOL GOOGLE ACCOUNT.
+          </p>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            There is no rush to complete your choices. Take your time, do your research, and think carefully. Classes are not assigned on a first-come, first-served basis. All forms submitted by the deadline will be reviewed together.
+          </p>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            Once complete, make sure you click the <span className="font-bold">Submit</span> button. If you need to change your choice, please talk to your tutor. The deadline is <span className="font-semibold text-blue-600">Friday, 24th of January</span>.
+          </p>
           <div className="bg-white shadow-md rounded-lg p-6">
-            {/* Embed your Google Form here */}
-            <p className="text-gray-700 italic">
-              [Google Form Placeholder]
-            </p>
+            {/* Embed the Guided Choices Google Form */}
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSckQvfKwEfB6YRGESWh9eCLu0JI0KjB5pTgmEdMOySgTL7Yig/viewform?embedded=true"
+              width="100%" // Use percentage for responsiveness
+              height="600" // Adjust height to a more reasonable size
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+            >
+              Loading…
+            </iframe>
+          </div>
+          <div className="text-center">
+            <p className="text-gray-700 mb-4">Having trouble viewing the form? Click the button below</p>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSckQvfKwEfB6YRGESWh9eCLu0JI0KjB5pTgmEdMOySgTL7Yig/viewform?usp=sf_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300"
+            >
+              Open the Guided Choices Form
+            </a>
           </div>
         </section>
       </div>

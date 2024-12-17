@@ -12,6 +12,7 @@ const Curriculum = () => {
         { name: 'Classical Civilisation', url: 'Classical-Civilisation' },
         { name: 'MFL', url: 'mfl' },
         { name: 'Computing', url: 'computing' },
+        { name: 'RE', url: 're'}
       ],
     },
     {
@@ -20,6 +21,11 @@ const Curriculum = () => {
         { name: 'Art', url: 'art' },
         { name: 'Textiles', url: 'textiles' },
       ],
+    },
+    {name: 'Humanaties',
+      subjects: [
+        {name: 'Health and Social Care', url: 'health-and-social-care'}
+      ]
     },
     {
       name: 'Performing Arts',
