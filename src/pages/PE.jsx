@@ -106,9 +106,6 @@ const PE = () => {
         <div className="aspect-w-16 aspect-h-9">
           <iframe
             src="https://docs.google.com/presentation/d/e/2PACX-1vSvNmWqoTkY0OKWveZX-5drlyPSkkxKmyOKp8yNoJAFc3KnxNqJexRNSN-m6DFKlq6y-9c1mvvv3qwm/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"
-            frameBorder="0"
-            width="100%"
-            height="600"
             allowFullScreen="true"
           ></iframe>
         </div>

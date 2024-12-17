@@ -11,7 +11,7 @@ import NotFound from './pages/NotFound';
 
 const App = () => {
   return (
-    <Router>
+    <>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -22,7 +22,7 @@ const App = () => {
         <Route path="*" element={<NotFound />} /> {/* Catch-all route */}
 
       </Routes>
-    </Router>
+      </>
   );
 };
 
