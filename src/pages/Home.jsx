@@ -68,7 +68,7 @@ const Home = () => {
               Click the button below to watch the Guided Choices presentation. It will open in a new tab.
             </p>
             <a
-              href="https://murf.ai/share/ls6430cv"
+              href="https://drive.google.com/file/d/15HHcxJMdFX1fi9Jf7uoh8Ho84nb0hheZ/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300"
