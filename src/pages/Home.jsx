@@ -21,7 +21,7 @@ const Home = () => {
     <iframe
       src="https://www.youtube.com/embed/d_ssJV_XfjQ"
       title="Guided Choices Video"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"uatiuons
       allowFullScreen
       className="absolute inset-0 w-full h-full"
     ></iframe>
@@ -44,22 +44,13 @@ const Home = () => {
 
           <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
             {/* Embed the Guided Choices Google Form */}
-            <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSckQvfKwEfB6YRGESWh9eCLu0JI0KjB5pTgmEdMOySgTL7Yig/viewform?embedded=true"
-              width="100%" // Use percentage for responsiveness
-              height="600"
-              frameBorder="0"
-              marginHeight="0"
-              marginWidth="0"
-            >
-              Loading…
-            </iframe>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdOZuQMm0WBlAILnR1GutAKsvRBk81juOYp09SWCilwZdXNUw/viewform?embedded=true" width="640" height="2280" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
           </div>
 
           <div className="text-center">
             <p className="text-gray-700 mb-4">Having trouble viewing the form? Click the button below</p>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSckQvfKwEfB6YRGESWh9eCLu0JI0KjB5pTgmEdMOySgTL7Yig/viewform?usp=sf_link"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdOZuQMm0WBlAILnR1GutAKsvRBk81juOYp09SWCilwZdXNUw/viewform?usp=dialog"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300"
@@ -87,12 +78,7 @@ const Home = () => {
           </div>
 
           <div className="bg-white shadow-lg rounded-lg p-0 overflow-hidden">
-            <iframe
-              src="https://docs.google.com/presentation/d/1YbMzVEX3KzpL7m9q54Jz3rrLGyKZEG2foYc316bf3hs/preview"
-              title="Guided Choices Google Slides"
-              className="w-full h-[56.25vw] max-h-[90vh] border-0"
-              allowFullScreen
-            ></iframe>
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTaAb5x0wCjpJ-VR5GhgFuF7oeoK2U77Bp8XTuGAxE7YoCmcFloNKDSfNgqlOt4fwXy1aU2tnWL8M-q/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="1440" height="1109" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
           </div>
         </section>
       </div>
