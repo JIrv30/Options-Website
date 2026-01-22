@@ -75,7 +75,7 @@ const Choices = () => {
             There is no rush to complete your choices. Take your time, do your research, and think carefully. Classes are not assigned on a first-come, first-served basis. All forms submitted by the deadline will be reviewed together.
           </p>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Once complete, make sure you click the <span className="font-bold">Submit</span> button. If you need to change your choice, please talk to your tutor. The deadline is <span className="font-semibold text-blue-600">Friday, 24th of January</span>.
+            Once complete, make sure you click the <span className="font-bold">Submit</span> button. If you need to change your choice, please talk to your tutor. The deadline is <span className="font-semibold text-blue-600">Monday, 23rd of Febuary</span>.
           </p>
           <div className="bg-white shadow-md rounded-lg p-6">
             {/* Embed the Guided Choices Google Form */}
