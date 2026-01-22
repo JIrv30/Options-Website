@@ -84,7 +84,7 @@ const Choices = () => {
           <div className="text-center">
             <p className="text-gray-700 mb-4">Having trouble viewing the form? Click the button below</p>
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSckQvfKwEfB6YRGESWh9eCLu0JI0KjB5pTgmEdMOySgTL7Yig/viewform?usp=sf_link"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdOZuQMm0WBlAILnR1GutAKsvRBk81juOYp09SWCilwZdXNUw/viewform?usp=dialog"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300"
