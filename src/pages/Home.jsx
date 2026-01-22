@@ -39,7 +39,7 @@ const Home = () => {
             There is no rush to complete your choices. Take your time, do your research, and think carefully. Classes are not assigned on a first-come, first-served basis. All forms submitted by the deadline will be reviewed together.
           </p>
           <p className="text-gray-700 leading-relaxed mb-6">
-            Once complete, make sure you click the <span className="font-semibold">Submit</span> button. If you need to change your choice, please talk to your tutor. The deadline is <span className="font-semibold text-blue-600">Friday, 24th of January</span>.
+            Once complete, make sure you click the <span className="font-semibold">Submit</span> button. If you need to change your choice, please talk to your tutor. The deadline is <span className="font-semibold text-blue-600">Monday, 23rd of February</span>.
           </p>
 
           <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
@@ -78,7 +78,7 @@ const Home = () => {
           </div>
 
           <div className="bg-white shadow-lg rounded-lg p-0 overflow-hidden">
-            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTaAb5x0wCjpJ-VR5GhgFuF7oeoK2U77Bp8XTuGAxE7YoCmcFloNKDSfNgqlOt4fwXy1aU2tnWL8M-q/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="1440" height="1109" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTaAb5x0wCjpJ-VR5GhgFuF7oeoK2U77Bp8XTuGAxE7YoCmcFloNKDSfNgqlOt4fwXy1aU2tnWL8M-q/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
           </div>
         </section>
       </div>

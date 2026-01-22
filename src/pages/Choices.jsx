@@ -79,16 +79,7 @@ const Choices = () => {
           </p>
           <div className="bg-white shadow-md rounded-lg p-6">
             {/* Embed the Guided Choices Google Form */}
-            <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSckQvfKwEfB6YRGESWh9eCLu0JI0KjB5pTgmEdMOySgTL7Yig/viewform?embedded=true"
-              width="100%" // Use percentage for responsiveness
-              height="600" // Adjust height to a more reasonable size
-              frameborder="0"
-              marginheight="0"
-              marginwidth="0"
-            >
-              Loading…
-            </iframe>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdOZuQMm0WBlAILnR1GutAKsvRBk81juOYp09SWCilwZdXNUw/viewform?embedded=true" width="640" height="2280" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
           </div>
           <div className="text-center">
             <p className="text-gray-700 mb-4">Having trouble viewing the form? Click the button below</p>

@@ -90,7 +90,7 @@ const faqData = [
   {
     question: 'How many subjects can I pick?',
     answer:
-      'You have three choices: one from our EBacc block and two free choices from the full list of subjects. You must also select a reserve choice.',
+      'You have three choices: one from our EBacc block and two other choices from the full list of subjects. You must also select 2 reserve choices.',
   },
   {
     question: 'Do I have to pick a language?',
